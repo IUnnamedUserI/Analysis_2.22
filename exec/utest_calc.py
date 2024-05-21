@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import unittest
 import calc
+
 
 class CalcTest(unittest.TestCase):
     def test_add(self):
@@ -13,6 +17,7 @@ class CalcTest(unittest.TestCase):
 
     def test_div(self):
         self.assertEqual(calc.div(8, 4), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
